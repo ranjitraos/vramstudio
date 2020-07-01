@@ -1782,7 +1782,7 @@ input, select, textarea {
 			width: calc(100% + 0.5em);
 		}
 
-			header.major > :first-child:after {
+			header.major:not(.title-article-header) > :first-child:after {
 				content: '';
 				background-color: #ffffff;
 				display: block;
@@ -2846,8 +2846,16 @@ input, select, textarea {
 				background-color: #e7b788;
 			}
 
+			/* .tiles article:nth-child(6n - 1):before {
+				background-color: #686e7a;
+			} */
+
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: black;
+			}
+
+			.tiles article:nth-child(6n - 1):hover:before {
+				opacity:unset;
 			}
 
 			.tiles article:nth-child(6n):before {
