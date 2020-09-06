@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("../img/cool-background.png");
+  background-image: url("../img/white_bg.jpg");
   font-family: "Rubik", "Helvetica Neue", "Helvetica", Helvetica, Arial,
     sans-serif;
   font-weight: 400;
@@ -87,8 +87,9 @@ nav {
   -webkit-text-fill-color: transparent;
 }
 .intro-text p {
-  margin-top: 5px;
-  font-size: 22px;
+  margin-top: 8px;
+  margin-left: 5px;
+  font-size: 20 px;
   color: #585772;
 }
 .cta h2 {
